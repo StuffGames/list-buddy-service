@@ -1,0 +1,22 @@
+{
+  "name": "list-buddy-service",
+  "version": "1.0.0",
+  "description": "back end service for list buddy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StuffGames/list-buddy-service.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StuffGames/list-buddy-service/issues"
+  },
+  "homepage": "https://github.com/StuffGames/list-buddy-service#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
