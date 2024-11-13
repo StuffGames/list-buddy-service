@@ -4,6 +4,8 @@
   "description": "back end service for list buddy",
   "main": "index.js",
   "scripts": {
+    "mongo-test": "node --env-file=.env mongodb-api.ts",
+    "start": "node --env-file=.env index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,10 @@
   },
   "homepage": "https://github.com/StuffGames/list-buddy-service#readme",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
   }
 }
