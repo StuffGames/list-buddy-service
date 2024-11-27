@@ -4,7 +4,7 @@
   "description": "back end service for list buddy",
   "main": "index.js",
   "scripts": {
-    "mongo-test": "node --env-file=.env mongodb-api.ts",
+    "mongo-test": "node --env-file=.env api/mongodb-api.ts",
     "start": "node --env-file=.env index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
